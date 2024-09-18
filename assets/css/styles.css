@@ -1,9 +1,10 @@
+* {
+  font-family: 'Pixelify Sans', sans-serif;
+}
 body {
   margin: 40px;
   background-color: #f8eded;
-  font-family: 'Pixelify Sans', sans-serif;
 }
-
 .card {
   border: 2px solid;
   border-radius: 10px;
@@ -60,4 +61,21 @@ body {
   color: #000;
   padding: 10px;
   background-color: white;
+}
+.card-skills .labels {
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+}
+.card-skills .labels button {
+  font-weight: 400;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  border: 2px dashed;
+  font-size: 24px;
+  margin: 5px;
+  transition: transform 0.2s ease-in-out;
 }
