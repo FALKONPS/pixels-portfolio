@@ -60,7 +60,14 @@ body {
   font-weight: 500;
   color: #000;
   padding: 10px;
-  background-color: white;
+  background-image: url('./pngwing.com.png');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 500px;
+  background-color: orange;
+}
+.card-skills h2 {
+  color: white;
 }
 .card-skills .labels {
   text-align: center;
@@ -78,4 +85,12 @@ body {
   font-size: 24px;
   margin: 5px;
   transition: transform 0.2s ease-in-out;
+}
+.card-skills .labels button:hover {
+  transform: scale(1.1);
+}
+.card-skills .labels button:focus {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
 }
