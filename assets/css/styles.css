@@ -119,3 +119,40 @@ p {
   height: 1000px;
   overflow: scroll;
 }
+.card-base {
+  font-weight: 500;
+  padding: 10px;
+  background-image: url('./background.png');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 500px;
+}
+
+.card-danger {
+  background-color: red;
+  top: 0;
+  position: sticky;
+}
+
+.card-warning {
+  background-color: orange;
+  top: 0;
+  position: sticky;
+}
+
+.card-info {
+  background-color: cyan;
+  top: 0;
+  position: sticky;
+}
+
+.card-skills h2,
+.card-warning h2,
+.card-info h2,
+.card-danger h2 {
+  display: inline;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+}
+
