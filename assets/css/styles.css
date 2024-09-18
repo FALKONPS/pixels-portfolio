@@ -17,6 +17,13 @@ h3 {
 p {
   font-size: 1.3rem;
 }
+.logo {
+  position: fixed;
+  left: 10px;
+}
+.logo img {
+  filter: invert(100%);
+}
 .card {
   border: 2px solid;
   border-radius: 10px;
