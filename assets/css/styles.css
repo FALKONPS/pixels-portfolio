@@ -30,3 +30,13 @@ h1 {
 header ul li {
   margin-left: 10px;
 }
+.card-note {
+  padding: 10px;
+  width: 250px;
+  color: white;
+  position: relative;
+  top: 60px;
+  left: 20px;
+  border-radius: 20px;
+  background-color: black;
+}
