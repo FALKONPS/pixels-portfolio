@@ -1,29 +1,9 @@
 body {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 40px;
   background-color: #f8eded;
   font-family: 'Pixelify Sans', sans-serif;
 }
-h1,
-h2,
-h4,
-a,
-li {
-  font-weight: 500;
-  color: #173b45;
-}
-a {
-  text-decoration-line: none;
-}
-a:hover {
-  color: red;
-}
-header ul,
-h1 {
-  display: flex;
-  list-style-type: none;
-  justify-content: center;
-}
+
 .card {
   background-color: #f5f7f8;
   border: 2px solid white;
@@ -31,9 +11,37 @@ h1 {
   padding: 10px;
   margin-bottom: 40px;
 }
-header ul li {
-  margin-left: 10px;
+
+.card-header {
+  font-weight: 500;
+  color: white;
+  padding: 10px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  background-color: black;
 }
+
+.card-header ul,
+.card-header h1 {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.card-header ul li {
+  margin-left: 20px;
+}
+
+.card-header a {
+  color: inherit;
+  display: flex;
+  text-decoration-line: none;
+}
+
+.card-header a:hover {
+  color: red;
+}
+
 .card-note {
   padding: 10px;
   width: 250px;
