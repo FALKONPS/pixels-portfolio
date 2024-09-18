@@ -6,13 +6,17 @@ body {
 }
 h1,
 h2,
-h3,
 h4,
 a,
 li {
-  text-shadow: 1px 1px 0 red, -1px -1px 0 blue, 1px -1px 0 yellow,
-    -1px 1px 0 yellow;
+  font-weight: 500;
   color: #173b45;
+}
+a {
+  text-decoration-line: none;
+}
+a:hover {
+  color: red;
 }
 header ul,
 h1 {
