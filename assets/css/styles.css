@@ -2,6 +2,9 @@
   font-family: 'Pixelify Sans', sans-serif;
   /* border: 2px solid red; */
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 40px 20%;
   /* min-width: 440px; */
