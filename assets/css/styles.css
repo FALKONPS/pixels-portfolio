@@ -41,21 +41,23 @@ p {
   color: white;
   padding: 10px;
   background-color: black;
+  text-align: center;
 }
 
 .card-header ul,
 .card-header h1 {
   list-style-type: none;
-  display: flex;
+
+  padding: 0;
   justify-content: center;
 }
 .card-header ul li {
   margin-left: 20px;
+  display: inline;
 }
 
 .card-header a {
   color: inherit;
-  display: flex;
   text-decoration-line: none;
 }
 
