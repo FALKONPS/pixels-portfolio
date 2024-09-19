@@ -210,3 +210,25 @@ p {
   color: red;
   text-shadow: 2px 2px 1px black;
 }
+
+#contant-me form label {
+  font-size: 1.3rem;
+}
+#contant-me form input,
+#contant-me form textarea {
+  display: block;
+  background-color: black;
+  color: white;
+  border: 2px dashed;
+  font-size: 1rem;
+  margin: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+#contant-me form input[type='submit']:hover {
+  transform: scale(1.1);
+}
+#contant-me form input[type='submit']:focus {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
