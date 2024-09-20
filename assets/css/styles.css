@@ -22,6 +22,19 @@ h3 {
 p {
   font-size: 1.3rem;
 }
+
+footer {
+  text-align: center;
+}
+footer a {
+  text-decoration-line: none;
+  color: black;
+}
+footer a:hover {
+  text-decoration-line: none;
+  color: red;
+}
+
 .logo {
   position: fixed;
   left: 10px;
@@ -47,7 +60,6 @@ p {
 .card-header ul,
 .card-header h1 {
   list-style-type: none;
-
   padding: 0;
   justify-content: center;
 }
